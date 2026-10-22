@@ -1,0 +1,42 @@
+body{
+    background-color: fuchsia;
+}
+img{
+    border-radius: 50px;
+}
+#log{
+    text-align: center;
+    color: aqua;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.menu {
+    padding: 15px 30px;
+    color: rgb(15, 15, 15);
+    background-color: aquamarine;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu :hover{
+    background-color: chocolate;
+    color: darkgoldenrod;
+}
+.wewi{
+    justify-content: center;
+    text-align: center;
+}
+#name{
+    width: 300px;
+}
+select{
+    width: 300px;
+    height: 35px;
+}
